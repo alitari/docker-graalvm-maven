@@ -1,4 +1,4 @@
-FROM oracle/graalvm-ce:19.2.1 as mavenbuilder
+FROM oracle/graalvm-ce:19.2.1
 # Graal vm
 RUN gu install native-image
 ENV GRAALVM_HOME=/opt/graalvm-ce-19.2.1
